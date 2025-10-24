@@ -18,4 +18,3 @@ print(f"{прозвище} разрежет тебя на {num} кусочков
 ## Team of the project
 + ATAIKA
 + CHAT GPT
-
