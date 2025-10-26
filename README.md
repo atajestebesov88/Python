@@ -8,14 +8,14 @@ The only reason for this README to exist is to learn how to create a presentable
 num = 13
 print(f"{прозвище} разрежет тебя на {num} кусочков и съест")
 ```
-![Чикатило](https://www.google.com/url?sa=i&url=https%3A%2F%2Flenta.ru%2Farticles%2F2022%2F10%2F15%2Fchikatilo%2F&psig=AOvVaw1CLhHoSb4dR9E-PE5nOo09&ust=1761554975662000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNjo6_G9wZADFQAAAAAdAAAAABAE)
+![alt text](images.jpeg)
 ## Requirements
 + *Python 3.14.0*
 + *Laptop*
 + *Filling the space*
 
 ## Almost complited homework :weary:
-[The proof](/Users/atajestebesov/Python/hw 1.py)
+[exercises with calculations were way too long](<hw 1.py>)
 ## Team of the project
 + ATAIKA
 + CHAT GPT
