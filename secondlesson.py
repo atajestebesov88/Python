@@ -17,7 +17,7 @@ kjhhgvghkml,jbhvgvbhjnk,klmjvfxdxfgnbjkjgfxszsxcghnml.lmnhcxz`zxdfghjm,..,m
 #price = input('Enter the price ')
 #print('Change is ', 500 - float(price))
 
-print(2*(3-1), (5**2-1**2), (0.3*(4-1)), (91-1)/(2+1), sep = '\n', end = 'жизнь боль')
+#print(2*(3-1), (5**2-1**2), (0.3*(4-1)), (91-1)/(2+1), sep = '\n', end = 'жизнь боль')
 #print(5**2-1**2)
 #print(0.3*(4-1))
 #print((91-1)/(2+1))
@@ -25,4 +25,12 @@ print(2*(3-1), (5**2-1**2), (0.3*(4-1)), (91-1)/(2+1), sep = '\n', end = 'жиз
 #print(1/3+5*0.2*0.001/91)
 #print((40-(4.25*7.08+6.768/0.75))*2050)
 #print((0.16*(3.2-3/40)+2+3/11*4.125/(3*4+3))/((6*5+1)*0.3-0.3*4.5+1/3*0.3))
-print(0.3*3)
+
+
+
+# Округление
+a = 32/7
+print(a)
+print(round(a))
+print(round(a, 1))
+print(round(a, 2))
