@@ -57,14 +57,76 @@ import math as mt # можно просто: import math
 #people.insert(2, 'Alex')
 #print(people)
 
-people = ['Tom', 'Sara', 'John', 'Ami', 'Sam']
-people1 = ['Alex', 'Eve', 'Jack']
-people.extend(people1)
+#people = ['Tom', 'Sara', 'John', 'Ami', 'Sam']
+#people1 = ['Alex', 'Eve', 'Jack']
+#people.extend(people1)
 #print(people)
-people.remove('Jack')
-print(people)
-people1.clear()
-print(people1)
-eve_index = people.index('Eve')
-people[eve_index] = 'Eleanor'
-print(people)
+#people.remove('Jack')
+#print(people)
+#people1.clear()
+#print(people1)
+#eve_index = people.index('Eve')
+#people[eve_index] = 'Eleanor'
+#print(people)
+
+#people = ['aaa', 'bbb', 'ccc', 'ddd']
+#slice_people = people[-2::-1]
+#print(slice_people)
+
+# Bool
+#num1 = 2 > 1
+#num2 = 1 == 3
+#num3 = num1 != num2
+#print(num3)
+#a = num1 + num2
+#print(a)
+
+#num1 = 4
+#num2 = 5
+#print(num1<=num2)
+#print(num1>=num2)
+
+#age = int(input("Enter your age: "))
+#a = age % 10 == 0 or age >= 50
+#print(a)
+
+
+#person = input("status of the person: ")
+#if person == 'student' or person == 'school 10th' or person == 'school 11th':
+ #   print(f"{person} is 15 or older")   
+#elif person == 'working':
+ #   print(f'{person} has a job')    
+#else:
+#    print(f'{person} is younger than 15')
+
+
+#age = int(input("Enter your age:"))
+#try:
+ #   age = int(age)
+#except:    
+ #   print("enter your age correctly")
+#if age < 18:        
+ #     print('child')
+#elif 18>=age>35:
+ #   print('adult')
+#elif 35>=age>60:
+ #   print('old') 
+#else:
+ #  print('pensioner')
+
+
+#list1 = [2, 3, 4, 5]
+#list1.append('Sacha')
+#if 'Sacha'  not in list1:
+#    print('no')
+#else:
+#    print('yes')
+
+#name = 'today is rainy'
+#if 'rainy' in name:
+ #   print('you need to take an umbrella') 
+ 
+ 
+a = int(input('enter a number: '))
+print(a)
+ 
