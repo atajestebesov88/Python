@@ -100,20 +100,6 @@ import math as mt # можно просто: import math
 #    print(f'{person} is younger than 15')
 
 
-age = int(input("Enter your age:"))
-try:
-   age = int(age)
-except:    
-   print("enter your age correctly")
-if age < 18:        
-     print('child')
-elif 18>=age>35:
-   print('adult')
-elif 35>=age>60:
-   print('old') 
-else:
-  print('pensioner')
-
 
 #list1 = [2, 3, 4, 5]
 #list1.append('Sacha')
@@ -125,6 +111,33 @@ else:
 #name = 'today is rainy'
 #if 'rainy' in name:
  #   print('you need to take an umbrella') 
+
+num1 =input("введите делитель  ")
+num2 = input("введите делимое ")
+
+try:
+    num1 = int(num1) 
+    num2 = int(num2)    # генерирует исключение ZeroDivisionError
+    num3 = num1 / num2
+    print("Результат деления:", num3)
+    if num3 <= 5:
+        print("num3 меньше 5")
+    elif num3 > 5 and num3 < 10:
+        print("num3 больше 5")
+    else:
+        print("num3 больше или равно 10")
+except:
+    print("Введите корректные числа")
+
+finally:
+    print("Блок try завершил выполнение")
+print("Завершение программы")
+
+
+a = 5
+b = 6
+sum1 = a+b
+print(sum1)
  
  
 
