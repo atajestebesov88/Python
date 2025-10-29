@@ -26,8 +26,6 @@ kjhhgvghkml,jbhvgvbhjnk,klmjvfxdxfgnbjkjgfxszsxcghnml.lmnhcxz`zxdfghjm,..,m
 #print((40-(4.25*7.08+6.768/0.75))*2050)
 #print((0.16*(3.2-3/40)+2+3/11*4.125/(3*4+3))/((6*5+1)*0.3-0.3*4.5+1/3*0.3))
 
-
-
 # Округление
 a = 32/7
 print(a)

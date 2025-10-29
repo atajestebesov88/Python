@@ -100,19 +100,19 @@ import math as mt # можно просто: import math
 #    print(f'{person} is younger than 15')
 
 
-#age = int(input("Enter your age:"))
-#try:
- #   age = int(age)
-#except:    
- #   print("enter your age correctly")
-#if age < 18:        
- #     print('child')
-#elif 18>=age>35:
- #   print('adult')
-#elif 35>=age>60:
- #   print('old') 
-#else:
- #  print('pensioner')
+age = int(input("Enter your age:"))
+try:
+   age = int(age)
+except:    
+   print("enter your age correctly")
+if age < 18:        
+     print('child')
+elif 18>=age>35:
+   print('adult')
+elif 35>=age>60:
+   print('old') 
+else:
+  print('pensioner')
 
 
 #list1 = [2, 3, 4, 5]
@@ -127,6 +127,5 @@ import math as mt # можно просто: import math
  #   print('you need to take an umbrella') 
  
  
-a = int(input('enter a number: '))
-print(a)
+
  
